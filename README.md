@@ -21,7 +21,7 @@ The approach used largely depends on the team needs, with Continuous Delivery & 
 
 You've been doing this on the Boolean course already! CI is the process of taking a developer's code and automatically running tests on it. If you check your previous pull requests, your latest commits should have either a green check mark or a red X attached.
 
-#This is continuous integration - your code is cloned into an automated service, which then installs all of the packages defined in your `package.json` file and runs any tests included in the project. If all tests pass, you get a green check - if even one fails, you get a red X.
+This is continuous integration - your code is cloned into an automated service, which then installs all of the packages defined in your `package.json` file and runs any tests included in the project. If all tests pass, you get a green check - if even one fails, you get a red X.
 
 ![](./_assets/continuous-integration.PNG)
 
