@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Continuous automation is the process of taking code written by a developer and performing some automated task with it in order to remove the manual bottleneck that comes with testing a piece of software.
+Continuous automation is the process of taking code written by a developer and performing some automated task with it in order to remove the manual bottleneck that comes with testing and/or deploying a piece of software.
 
 There are 3 flavours of automation:
 
