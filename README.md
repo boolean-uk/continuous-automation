@@ -25,11 +25,13 @@ There are 3 flavours of automation:
 2. Continuous Deployment
 3. Continuous Delivery
 
-The approach used largely depends on the team needs, with Continuous Delivery & Integration being the most common.
+The approach used largely depends on the team needs, with Continuous Integration & Delivery being the most common.
 
 ## Continuous Integration (CI)
 
 You've been doing this on the Boolean course already! CI is the process of taking a developer's code and automatically running tests on it. If you check your previous pull requests, your latest commits should have either a green check mark or a red X attached.
+
+All of those tests were written by the Boolean team, but you could add your own tests and those can be included in the CI process as well.
 
 This is continuous integration - your code is cloned into an automated service, which then installs all of the packages defined in your `package.json` file and runs any tests included in the project. If all tests pass, you get a green check - if even one fails, you get a red X.
 
@@ -68,7 +70,9 @@ In the root directory of this project you'll find [example.js](./example.js) and
 3. Have your workflow run the `npm test` command
 4. Commit and push your work. If you visit your github repo after a couple of minutes, you should see a red X on your commit history. This is because the test in `example.test.js` is broken
 5. Verify that your workflow is running on Pull Requests by checking out a new branch with `git checkout -b nameOfBranch` (replace nameOfBranch with the name of the branch you want to create)
-6. Fix the broken test, then commit your changes and push your branch to github using `git push -u origin nameOfBranch` (replace nameOfBranch with the actual name of your branch)
+6. Resolve the test failure by:
+    - Fixing the operation in the `example.js` sum function
+    - Commit your changes and push your branch to github using `git push -u origin nameOfBranch` (replace nameOfBranch with the actual name of your branch)
 7. Go to your repository in github and create a pull request to the main branch of your repo (not the Boolean UK repo!)
 8. You should see a green checkmark on your commit in the pull request
 
