@@ -40,3 +40,4 @@ As you can probably imagine, this comes with a bit of a trade-off. It removes th
 Continuous delivery is usually the method referenced when somebody says "CD". It's almost exactly the same as Continuous Deployment, except we introduce a manual step before a deployment happens. This allows us to stream-line _most_ of the deployment process, but requires a real human to press a button that triggers the automated deployment. With this approach, we can have a manual tester check that the app has no bugs before the deployment happens.
 
 ![](./_assets/continuous-delivery.PNG)
+
